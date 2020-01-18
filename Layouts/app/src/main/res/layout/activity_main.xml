@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_grid"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Grid Layout"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:onClick="onClickGrid"
+            />
+
+        <Button
+            android:id="@+id/btnNavigation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Navigation drawer"
+            android:onClick="onClckNavigation"
+            />
+
+        <Button
+            android:id="@+id/btn_scroll"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Scroll layout"
+            android:onClick="onClickScroll"
+            />
+
+        <Button
+            android:id="@+id/btn_relative"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"
+            android:layout_margin="10dp"
+            android:onClick="onClickRelative"
+            />
+
+        <Button
+            android:id="@+id/btn_linear"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Linear layout"
+            android:onClick="onClickLinear"
+            />
+        <Button
+            android:id="@+id/btn_tab_bar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Linear layout"
+            android:onClick="onClickTabBar"
+            />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
