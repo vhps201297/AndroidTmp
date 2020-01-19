@@ -1,4 +1,4 @@
-package com.example.layouts.ui.main;
+package com.example.layouts.ui.scrolling;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;

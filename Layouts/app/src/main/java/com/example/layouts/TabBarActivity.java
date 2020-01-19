@@ -9,11 +9,9 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
-import com.example.layouts.ui.main.SectionsPagerAdapter;
+import com.example.layouts.ui.scrolling.SectionsPagerAdapter;
 
 public class TabBarActivity extends AppCompatActivity {
 

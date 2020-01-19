@@ -1,4 +1,4 @@
-package com.example.layouts.ui.main;
+package com.example.layouts.ui.scrolling;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
