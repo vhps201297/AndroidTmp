@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_banner"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/face_banner"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/img_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            >
+
+            <EditText
+                android:id="@+id/edtxt_user"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="user" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            >
+
+            <EditText
+                android:id="@+id/edtxt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/str_iniciar_sesion"
+            android:textSize="14sp"
+            android:onClick="onClickResetPass"
+            android:textColor="@android:color/white"
+            android:background="@color/blue_face"
+            android:textAllCaps="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/str_olvido"
+            android:textSize="14sp"
+            android:onClick="onClickResetPass"
+            android:textColor="@color/blue_face"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/str_crear_cuenta"
+        android:onClick="onClickLogin"
+        android:textSize="14sp"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

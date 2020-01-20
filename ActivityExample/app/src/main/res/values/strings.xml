@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityExample</string>
+    <string name="str_mandar_info">Mandar info</string>
+    <string name="str_no_mandar_info">No mandar info</string>
+    <string name="str_ph_text">Info</string>
+    <string name="str_info_intent">info_intent</string>
+</resources>
