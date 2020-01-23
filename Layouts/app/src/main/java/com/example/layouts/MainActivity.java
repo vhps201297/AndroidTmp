@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
      * To FrameLayout (Fragment)
      */
     public void onClickRelative(View view) {
-        startActivity(new Intent(this, FrameActivity.class));
+        startActivity(new Intent(this, RelativeActivity.class));
     }
 
     /**

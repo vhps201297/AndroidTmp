@@ -16,11 +16,13 @@
         android:layout_margin="8dp">
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_launcher_background"
-            android:contentDescription="@string/str_image_cardview" />
+            android:background="@drawable/shape_drawable"
+            android:src="@drawable/ic_menu_manage"
+            android:contentDescription="@string/str_image_cardview"
+            tools:targetApi="m" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -31,11 +33,29 @@
         android:layout_margin="8dp">
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="16dp"
+            android:background="@drawable/shape_drawable"
             android:contentDescription="@string/str_image_cardview"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/ic_menu_camera"
+            tools:targetApi="m" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="8dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/shape_drawable"
+            android:contentDescription="@string/str_image_cardview"
+            android:src="@drawable/ic_menu_send"
+            tools:targetApi="m" />
     </androidx.cardview.widget.CardView>
 
 
